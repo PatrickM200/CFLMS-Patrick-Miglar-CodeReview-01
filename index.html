@@ -1,35 +1,58 @@
-<!DOCTYPE html> 
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>My first Website</title>
-	<meta charset="utf-8">
+    <title>My first Website</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-	<header>
-		<span>Patrick Miglar Full-Stack Web Developer</span>
-		<img src="D:\Users\livia\Desktop\CFLMS-Patrick-Miglar-CodeReview-01\img\logo.png" alt="logo">
-		<nav>
-			<a href="file:///D:/Users/livia/Desktop/CFLMS-Patrick-Miglar-CodeReview-01/index.html">Home</a>
-			<a href="file:///D:/Users/livia/Desktop/CFLMS-Patrick-Miglar-CodeReview-01/blog.html">Blog</a>
-			<a href="file:///D:/Users/livia/Desktop/CFLMS-Patrick-Miglar-CodeReview-01/about-me.html">About me</a>
-			<a href="file:///D:/Users/livia/Desktop/CFLMS-Patrick-Miglar-CodeReview-01/contact.html">Contact</a>
-		</nav>
-	</header>
-	<h1>This is my first website :D</h1>
-	<img src="D:\Users\livia\Desktop\CFLMS-Patrick-Miglar-CodeReview-01\img\phone.png" alt="phone">
-	<h2>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</h2>
-	<img src="D:\Users\livia\Desktop\CFLMS-Patrick-Miglar-CodeReview-01\img\Debit_card_ATM.jpg" alt="debit_card_atm">
-	<h2>Police are investigating three ATM explosions in two Florida counties</h2>
-	<img src="D:\Users\livia\Desktop\CFLMS-Patrick-Miglar-CodeReview-01\img\Taxify-Scooters.jpg" alt="taxify scooters">
-	<h2>E-scooter firm Bolt pulls out of 12 cities</h2>
-
-<footer>
-	<img src="D:\Users\livia\Desktop\CFLMS-Patrick-Miglar-CodeReview-01\img\logo.png" alt="logo">
-	<span>Patrick Miglar CodeFactory 2020</span>
-</footer>
-
+    <header>
+        <span id="bannertext">Patrick Miglar Full-Stack Web Developer</span>
+        <img class="bannerlogo" src="img\logo.png" alt="logo" title="Firmenlogo">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="zur Startseite">Home</a>
+                </li>
+                <li>
+                    <a href="blog.html" title="zum Blog">Blog</a>
+                </li>
+                <li>
+                    <a href="about-me.html" title="zum About me">About me</a>
+                </li>
+                <li>
+                    <a href="contact.html" title="zum Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>This is my first <br>website :D</h1>
+        <section>
+            <figure class="imgphone">
+                <img src="img\phone.png" alt="phone" title="Phone">
+                <figcaption class="fighome">Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</figcaption>
+            </figure>
+            <figure class="imgrow">
+                <img src="img\Debit_card_ATM.jpg" alt="debit_card_atm" title="Scooter">
+                <figcaption class="fighome">Police are investigating three ATM explosions in two Florida counties</figcaption>
+            </figure>
+            <figure class="imgrow">
+                <img src="img\Taxify-Scooters.jpg" alt="taxify scooters" title="Scooter">
+                <figcaption class="fighome">E-scooter firm Bolt pulls out of 12 cities</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <img class="footerlogo" src="img\logo.png" alt="logo" title="Firmenlogo">
+        <br>
+        <div id="footertext">
+            <span>Patrick Miglar CodeFactory 2020</span>
+        </div>
+    </footer>
 </body>
 
 </html>

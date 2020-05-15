@@ -1,0 +1,15 @@
+h1 {
+	padding-left: 60px;
+
+}
+
+main {
+	margin: 0 auto;
+	padding: 30px 100px;
+    max-width: 1080px;
+}
+
+#danke  {
+	text-align: center;
+	font-weight: 600;
+}
