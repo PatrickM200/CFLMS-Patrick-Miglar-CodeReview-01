@@ -3,3 +3,24 @@ main {
 	padding: 30px 100px;
     max-width: 1080px;
 }
+
+.sectionborder {
+
+	border:solid, lightgray;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 10px lightgray;
+}
+
+.inputfieldmail {
+	width: 200px;
+}
+
+
+.messagetitle {
+	width: 600px;
+}
+
+.messagetext {
+	width: 600px;
+	height: 200px;
+}
